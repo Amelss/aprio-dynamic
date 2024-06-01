@@ -1,3 +1,5 @@
+<?php require "php/functions.php" ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +18,30 @@
 
 <main>
     <h1>Menu</h1>
+
+
+
+    
+        <?php $items = getMenuItems()?>
+        
+    <div class="menu-items">
+        <?php 
+            foreach($items as $item){
+
+                ?>
+
+                <h3 class="menu-title"><?php echo $item['name']?></h3>
+                <div class="menu-image">
+                   <img src="<?php echo "{$item['image']}" ?>" alt="menu image"> 
+                </div>
+                <p class="menu-description"><?php echo $item['description']?></p>
+                <p class="menu-price">£<?php echo $item['price']?></p>
+                
+
+                <?php
+            }
+        ?>
+    </div>
 </main>
 
 <?php include "includes/footer.php"?>
