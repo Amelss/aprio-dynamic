@@ -17,17 +17,17 @@
 
     <header class="header-img">
         
-        <img src="/images/restaurant-banner.png" alt="picture of fine dining Italian Dish" class="desktop-header" >
-        <img src="/images/mobile-header.png" alt="picture of fine dining Italian Dish" class="mobile-header" width="375px" >
+        <img src="images/restaurant-banner.png" alt="picture of fine dining Italian Dish" class="desktop-header" >
+        <img src="images/mobile-header.png" alt="picture of fine dining Italian Dish" class="mobile-header" width="375px" >
     </header>
     <main>
         <section>
             <h1>Our Top Rated Dishes</h1>
             <p class="dishes-blurb">Carefully crafted by a world renowned Chef.</p>
             <div class="top-dishes">
-            <img src="/images/gnocchi.png" alt="gnocchi" class="dishes">
-            <img src="/images/pasta.png" alt="pasta" class="dishes">
-            <img src="/images/spaghetti.png" alt="spaghetti" class="dishes"> 
+            <img src="images/gnocchi.png" alt="gnocchi" class="dishes">
+            <img src="images/pasta.png" alt="pasta" class="dishes">
+            <img src="images/spaghetti.png" alt="spaghetti" class="dishes"> 
             </div>
            <div class="booking-btn">
             <button class="book-btn"><a href="https://www.opentable.com/start/home" target="_blank">Book Now</a></button>
@@ -39,7 +39,7 @@
           <h1>About Us</h1>
             <div class="text-image">
                 <div>
-                    <img src="/images/chef.png" alt="Chef in uniform" class="grid-item grid-img">
+                    <img src="images/chef.png" alt="Chef in uniform" class="grid-item grid-img">
                 </div>
 
                 <div>
@@ -54,7 +54,7 @@
                      <p class="grid-text">At Aprió, we are committed to excellence by using only the finest ingredients. Each component is meticulously selected for superior quality, freshness, and flavor. We source the best local and seasonal produce to ensure an unforgettable dining experience. Every bite reflects our passion for culinary perfection and dedication to quality. This commitment makes each meal truly exceptional and memorable.</p>
                 </div>
                  <div>
-                     <img src="/images/ingredients.png" alt="spoons with spices on" class="grid-img">
+                     <img src="images/ingredients.png" alt="spoons with spices on" class="grid-img">
                  </div>
               
              </div>
@@ -63,7 +63,7 @@
             
            <div class="text-image">
             <div>
-               <img src="/images/prep.png" alt="Hands prepping food" class="grid-img"> 
+               <img src="images/prep.png" alt="Hands prepping food" class="grid-img"> 
             </div>
              <div>
                  <p class="grid-text">We pride ourselves on the meticulous presentation of our dishes. Each plate is a work of art, crafted with precision and creativity to delight both the eyes and the palate. Our chefs meticulously design every element to ensure it not only tastes exquisite but also looks stunning. Attention to detail is paramount, making each dish a visual and culinary masterpiece. This commitment ensures your dining experience is truly exceptional, memorable from the first glance to the last bite.</p>
