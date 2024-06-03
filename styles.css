@@ -6,6 +6,7 @@ body{
    font-family: "Playfair Display", serif;
    font-size: 50px;
    letter-spacing: 4px;
+   margin-top: 10px;
 }
 
 .footer-title{
@@ -81,6 +82,10 @@ text-decoration: none;
   
 }
 
+.grid-menu-img{
+   width: 370px;
+}
+
 .grid-section{
  text-align: center;
  padding-bottom: 20px;
@@ -135,6 +140,23 @@ footer{
    
 }
 
+.menu-page{
+   font-size: 35px;
+}
+
+.menu-blurb{
+   text-align: center;
+   margin: 20px auto;
+   padding: 30px 10px;
+   font-weight: normal;
+}
+
+.menu-price{
+   font-weight: bold;
+   font-style: italic;
+   font-size: 15px;
+}
+
 @media screen and (min-width: 1110px) {
    .desktop-header{
       display: flex;
@@ -169,9 +191,24 @@ footer{
    }
 
 
-
    .grid-img{
       width: auto;
       margin-left: 20px;
    }
+
+   .grid-menu-img{
+      width: auto;
+   }
+   .menu-items{
+      display: grid;
+      grid-template-columns: 400px 400px 400px;
+      place-content: center;
+      gap: 15px;
+   }
+
+   .menu-blurb{
+   padding: 30px 0;
+   width: 700px;
+  
+}
 }

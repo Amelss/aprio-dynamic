@@ -17,10 +17,10 @@
 <?php include "includes/nav.php"?>
 
 <main>
-    <h1>Menu</h1>
+    <h1 class="menu-page">Menu</h1>
 
 
-
+<h4 class="menu-blurb">Discover our gourmet menu, featuring a curated selection of exquisite dishes crafted with the finest ingredients. From luxurious starters to decadent desserts, each plate is a harmonious blend of flavors and artistry, promising an unforgettable dining experience. Indulge in culinary excellence with every bite.</h4>
     
         <?php $items = getMenuItems()?>
         
@@ -29,13 +29,17 @@
             foreach($items as $item){
 
                 ?>
-
-                <h3 class="menu-title"><?php echo $item['name']?></h3>
+               <div>
+                  <h3 class="menu-title"><?php echo $item['name']?></h3>
                 <div class="menu-image">
-                   <img src="<?php echo "{$item['image']}" ?>" alt="menu image"> 
+                   <img src="<?php echo "{$item['image']}" ?>" alt="menu image" class="grid-menu-img"> 
                 </div>
                 <p class="menu-description"><?php echo $item['description']?></p>
-                <p class="menu-price">£<?php echo $item['price']?></p>
+                <p class="menu-price">£<?php echo $item['price']?></p>  
+               </div>
+                
+                
+                
                 
 
                 <?php
